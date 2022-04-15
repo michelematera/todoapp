@@ -1,0 +1,33 @@
+.*
+!.stylintrc
+!.gitignore
+!.dockerignore
+!.editorconfig
+!.python-version
+!.browserslistrc
+!.github
+*.tar
+*.rar
+*.zip
+__pycache__
+celerybeat-schedule
+celerybeat.pid
+_dist
+_tmp
+*.rdb
+Thumbs.db
+**/*.dump
+**/*.bin
+
+# asset files
+/staticfiles
+/media
+
+# npm modules folders
+node_modules
+
+# Log files
+*.log
+*.log.*
+
+.DS_STORE

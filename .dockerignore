@@ -1,0 +1,34 @@
+**/.*
+!**/.env
+**/*.tar
+**/*.rar
+**/*.zip
+**/__pycache__
+**/celerybeat-schedule
+**/celerybeat.pid
+**/*.rdb
+**/Thumbs.db
+**/*.dump
+**/*.bin
+
+# asset files
+/staticfiles
+/media
+
+# misc files
+_resources
+_docs
+_tmp
+
+# npm modules folders
+**/node_modules
+
+# Log files
+**/*.log
+
+**/nginx
+
+cert.key
+cert.crt
+README.md
+docker

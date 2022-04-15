@@ -1,0 +1,18 @@
+version: '3.6'
+
+services:
+
+  postgres:
+    image: postgres:13.3
+    restart: always
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5449:5432"
+    environment:
+      - POSTGRES_DB=todoapp
+      - POSTGRES_PASSWORD=todoapp
+
+volumes:
+
+  postgres_data:

@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+python-decouple = "*"
+psycopg2-binary = "*"
+gunicorn = "*"
+djangorestframework = "*"
+coreapi = "*"
+pyyaml = "*"
+drf-yasg = "*"
+django-storages = "*"
+boto3 = "*"
+pillow = "*"
+pilkit = "*"
+djangorestframework-simplejwt = "*"
+drf-extra-fields = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
