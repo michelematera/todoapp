@@ -9,7 +9,7 @@ DEBUG = config('DEBUG', cast=bool, default=True)
 
 # Security
 
-SECRET_KEY = '#!#28d#+2y0-n3b^@85r8&ygh60i+k-j@x#$oa+ednd^&qf(0('
+SECRET_KEY = config('SECRET_KEY', default='#!#28d#+2y0-n3b^@85r8&ygh60i+k-j@x#$oa+ednd^&qf(0(')
 
 ALLOWED_HOSTS = ['*']
 
