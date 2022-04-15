@@ -43,3 +43,8 @@ export PS1='[\u@\h \W]\$ '
 
 ### Start Docker Services
 `$ docker-compose up -d --build --remove-orphans`
+
+
+### Django
+`$ python manage.py runserver`
+`$ python manage.py test`
