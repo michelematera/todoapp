@@ -8,7 +8,6 @@ class TaskListCreateAPIView(generics.ListCreateAPIView):
     filter_backends = [filters.OrderingFilter]
     ordering_fields = ['name', 'created_at']
     queryset = todo_models.Task.objects.all()
-    permission_classes = [permissions.IsAuthenticated]
 
     def perform_create(self, serializer):
         serializer.save(user=self.request.user)
