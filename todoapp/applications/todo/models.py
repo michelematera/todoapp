@@ -19,3 +19,4 @@ class Task(
     class Meta:
         verbose_name = 'task'
         verbose_name_plural = 'tasks'
+        ordering = ['-id']
