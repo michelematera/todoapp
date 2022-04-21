@@ -41,7 +41,7 @@ class TaskListCreateAPIViewTestCase(APITestCase):
 
     def test_task_list(self):
         response = self.client.get(self.url)
-        self.assertTrue(200, response.status_code)
+        self.assertEqual(200, response.status_code)
 
 
 class TaskRetrieveUpdateDestroyAPIViewTestCase(APITestCase):
